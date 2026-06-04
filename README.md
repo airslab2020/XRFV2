@@ -6,7 +6,7 @@ This section summarizes the **XRFv2 Plus** release, a video-aligned multimodal u
 
 **Update note**: *XRFv2 Plus: A Dataset Update for Multimodal Action Understanding*
 
-The Kaggle release is being uploaded in batches. If the page is temporarily unavailable or missing some files, the upload is still in progress.
+The Kaggle release is now public. The current public Kaggle dataset is at version 2: version 1 provides the fast no-video release, and version 2 adds the 853 cropped Kinect depth videos. Infrared videos and DensePose are being appended as later Kaggle versions.
 
 ## What Is New
 
@@ -95,14 +95,14 @@ Example Action QA items:
 
 ## Kaggle Upload Batches
 
-Upload estimates below are best-effort estimates based on the server-side processing and Kaggle upload speed observed on **June 4, 2026, 10:10 CST**. The exact display time on Kaggle may lag behind upload completion because Kaggle needs to finalize each dataset version.
+Status below was last checked on **June 4, 2026, 19:52 CST**. The exact display time on Kaggle may lag behind upload completion because Kaggle needs to finalize each dataset version.
 
 | Batch | Content | Current status | Estimated availability (CST) |
 | --- | --- | --- | --- |
-| Fast no-video release | annotations, WiFi, IMU, AirPods, RGB features, 2D pose, 3D pose, SMPL mesh | uploaded; Kaggle may need a short refresh/finalization delay | June 4, 2026 |
-| Depth video batch | 853 cropped Kinect depth videos, about 57.63 GiB | depth archive is being prepared and will be uploaded next | June 4, 2026 evening |
-| Infrared video batch | 853 cropped Kinect infrared videos, about 94.02 GiB | queued after the depth batch | June 5, 2026 morning to noon |
-| DensePose batch | DensePose H5, expected about 38 GiB | DensePose generation is still running, then uploaded as a separate batch | June 5, 2026 evening, or June 6 if Kaggle upload is slow |
+| Fast no-video release | annotations, WiFi, IMU, AirPods, RGB features, 2D pose, 3D pose, SMPL mesh | public; Kaggle version 1 is Ready | available now |
+| Depth video batch | 853 cropped Kinect depth videos, about 57.63 GiB | public; Kaggle version 2 is Ready | available now |
+| Infrared video batch | 853 cropped Kinect infrared videos, about 94.02 GiB | uploading; 89.7 GiB / 100.96 GiB uploaded at last check | June 4 late evening, or June 5 if finalization lags |
+| DensePose batch | DensePose H5, expected about 38 GiB | generation running; 388 / 853 samples complete and current H5 size is 17 GiB | June 5 evening, or June 6 if Kaggle upload is slow |
 
 Raw Kinect recordings and cropped Kinect RGB videos are not included in the Kaggle release because of privacy considerations.
 
