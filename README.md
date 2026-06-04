@@ -12,10 +12,6 @@ The Kaggle release is being uploaded in batches. If the page is temporarily unav
 
 XRFv2 Plus converts the original XRFV2 recordings into a synchronized action-understanding release. Each updated sample is aligned to the cropped Kinect video timeline and uses relative time as the common temporal axis.
 
-<p align="center">
-  <img src="img/xrfv2_plus_original_setup.jpg" alt="XRFv2 sensing setup" width="720px"/>
-</p>
-
 The update adds synchronized sensing streams, body information, and language/action-understanding annotations for the same **853 valid action sequences**.
 
 | Category | New release content |
@@ -24,10 +20,6 @@ The update adds synchronized sensing streams, body information, and language/act
 | Body information | Human 2D pose, depth-assisted 3D pose, SMPL mesh, DensePose-style surface information |
 | Action labels | Temporal action localization, action captioning, action question answering |
 | Time convention | All labels and synchronized tensors use relative time within each sequence |
-
-<p align="center">
-  <img src="img/xrfv2_plus_multimodal_visual_row.png" alt="Synchronized visual example with RGB, IR, depth, pose, mesh, and DensePose" width="900px"/>
-</p>
 
 ## Release Summary
 
@@ -43,12 +35,6 @@ The update adds synchronized sensing streams, body information, and language/act
 | Sequence duration range | 43-89 seconds |
 | Actions per sequence | 7-11 |
 | Total video-aligned duration | 16 h 14 min 38 s |
-
-## Temporal Statistics
-
-| Sequence duration | Actions per sequence | Action duration |
-| --- | --- | --- |
-| <img src="img/xrfv2_plus_sequence_duration_distribution.png" alt="Sequence duration distribution" width="260px"/> | <img src="img/xrfv2_plus_actions_per_sequence_distribution.png" alt="Actions per sequence distribution" width="260px"/> | <img src="img/xrfv2_plus_action_duration_distribution.png" alt="Action duration distribution" width="260px"/> |
 
 ## Main Files and Tensor Conventions
 
