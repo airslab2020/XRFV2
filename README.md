@@ -1,3 +1,21 @@
+# XRFv2 Plus Update
+
+This section summarizes the new XRFv2 Plus release. The original XRFV2 README is kept unchanged below the separator.
+
+**Kaggle release**: https://www.kaggle.com/datasets/airslab2020/xrfv2-multimodal-tal-caption-qa-no-rgb
+
+The XRFv2 Plus data are being uploaded to Kaggle in batches. The current upload plan is:
+
+- **Fast no-video release**: synchronized H5 data and annotations, including WiFi, five-position IMU, AirPods IMU, RGB video features, 2D pose, 3D pose, SMPL mesh, temporal action localization, action captioning, and action QA.
+- **Follow-up video batches**: cropped Kinect depth videos and cropped Kinect infrared videos.
+- **Follow-up DensePose batch**: DensePose H5 will be added after all 853 sequences are processed.
+
+The update standardizes **853 valid action sequences** into video-aligned multimodal data. It provides synchronized WiFi at 50 Hz, five-position IMU at 50 Hz, AirPods IMU at 25 Hz, second-level RGB video features, Kinect depth videos, Kinect infrared videos, 2D pose, 3D pose, SMPL mesh, DensePose-style body information, temporal action localization annotations, bilingual action captioning annotations, and bilingual action QA annotations.
+
+Raw Kinect recordings and cropped Kinect RGB videos are not included in the Kaggle release because of privacy considerations.
+
+---
+
 # XRFV2
 
 <p align="center">
@@ -96,4 +114,3 @@ If XRFV2 helps in your research, please kindly cite
   publisher = {ACM}
 }
 ```
-
