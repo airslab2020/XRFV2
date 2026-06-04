@@ -95,12 +95,14 @@ Example Action QA items:
 
 ## Kaggle Upload Batches
 
-| Batch | Content | Status |
-| --- | --- | --- |
-| Fast no-video release | annotations, WiFi, IMU, AirPods, RGB features, 2D pose, 3D pose, SMPL mesh | uploading / available first |
-| Depth video batch | 853 cropped Kinect depth videos, about 57.63 GiB | prepared after the fast release |
-| Infrared video batch | 853 cropped Kinect infrared videos, about 94.02 GiB | prepared after the depth batch |
-| DensePose batch | DensePose H5, expected about 38 GiB | added after all 853 sequences are processed |
+Upload estimates below are best-effort estimates based on the server-side processing and Kaggle upload speed observed on **June 4, 2026, 10:10 CST**. The exact display time on Kaggle may lag behind upload completion because Kaggle needs to finalize each dataset version.
+
+| Batch | Content | Current status | Estimated availability (CST) |
+| --- | --- | --- | --- |
+| Fast no-video release | annotations, WiFi, IMU, AirPods, RGB features, 2D pose, 3D pose, SMPL mesh | uploaded; Kaggle may need a short refresh/finalization delay | June 4, 2026 |
+| Depth video batch | 853 cropped Kinect depth videos, about 57.63 GiB | depth archive is being prepared and will be uploaded next | June 4, 2026 evening |
+| Infrared video batch | 853 cropped Kinect infrared videos, about 94.02 GiB | queued after the depth batch | June 5, 2026 morning to noon |
+| DensePose batch | DensePose H5, expected about 38 GiB | DensePose generation is still running, then uploaded as a separate batch | June 5, 2026 evening, or June 6 if Kaggle upload is slow |
 
 Raw Kinect recordings and cropped Kinect RGB videos are not included in the Kaggle release because of privacy considerations.
 
