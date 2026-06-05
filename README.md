@@ -1,5 +1,7 @@
 # XRFv2 Plus Update
 
+**Update time**: June 6, 2026 (CST). The public Kaggle release status was last verified through version 4 on June 5, 2026, 23:39 CST.
+
 This section summarizes the **XRFv2 Plus** release, a video-aligned multimodal update to XRFV2. The original XRFV2 README is kept unchanged below the separator.
 
 **Kaggle release**: https://www.kaggle.com/datasets/airslab2020/xrfv2-multimodal-tal-caption-qa-no-rgb
