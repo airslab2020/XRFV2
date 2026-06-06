@@ -8,6 +8,19 @@ This section summarizes the **XRFv2 Plus** release, a video-aligned multimodal u
 
 **Preprint**: Fei Wang, *XRFv2 Plus: A Multimodal Sensor-Vision-Language Dataset for Action Understanding*. Zenodo, June 6, 2026. https://doi.org/10.5281/zenodo.20564312
 
+**BibTeX**:
+
+```bibtex
+@misc{wang2026xrfv2plus,
+  author       = {Wang, Fei},
+  title        = {XRFv2 Plus: A Multimodal Sensor-Vision-Language Dataset for Action Understanding},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.20564312},
+  url          = {https://doi.org/10.5281/zenodo.20564312}
+}
+```
+
 **Update note**: *XRFv2 Plus: A Multimodal Sensor-Vision-Language Dataset for Action Understanding*
 
 The Kaggle release is now public. The current public Kaggle dataset is at version 4: version 1 provides the fast no-video release, version 2 adds the 853 cropped Kinect depth videos, version 3 adds the 853 cropped Kinect infrared videos, and version 4 adds the DensePose H5 file.
